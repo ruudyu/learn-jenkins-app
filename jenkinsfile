@@ -19,11 +19,9 @@ pipeline {
                 '''
             }
         }
-        stage{'test'} {
-           
-            
+        stage{'Test'} {
             steps {
-                echo 'test stage'
+                echo 'Test stage'
             }
         }
     }
